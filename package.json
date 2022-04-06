@@ -4,7 +4,8 @@
   "description": "This is a signalR server with node js for coding and access server",
   "main": "ProjFiles/SignalRServer/Server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ProjFiles/SignalRServer/Server.js"
   },
   "repository": {
     "type": "git",
