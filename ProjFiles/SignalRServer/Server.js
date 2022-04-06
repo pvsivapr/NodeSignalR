@@ -9,7 +9,8 @@ const port = process.env.PORT || 3000;//8080;//Creating A Constant For Providing
 const timeInterval = 1000;
 
 app.use(signalR.createListener());
-app.use(express.static(__dirname));
+// app.use(express.static(__dirname));
+app.use(express.static(__dirname + '/ProjFiles/HtmlFiles'));
 app.listen(port);
 
 
