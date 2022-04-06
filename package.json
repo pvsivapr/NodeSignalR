@@ -1,0 +1,23 @@
+{
+  "name": "nodesignalr",
+  "version": "1.0.0",
+  "description": "This is a signalR server with node js for coding and access server",
+  "main": "ProjFiles/SignalRServer/Server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://pvsivapr@github.com/pvsivapr/NodeSignalR.git"
+  },
+  "author": "Siva Prasad",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pvsivapr/NodeSignalR/issues"
+  },
+  "homepage": "https://github.com/pvsivapr/NodeSignalR#readme",
+  "dependencies": {
+    "express": "^4.17.3",
+    "signalrjs": "^0.2.2"
+  }
+}
